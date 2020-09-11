@@ -1,0 +1,27 @@
+header{
+    background:gray;
+}
+section{
+    background: yellow;
+}
+
+h1,h2,h3{
+
+    color: red;
+}
+
+.tarjeta{
+    background:royalblue;
+}
+.tarjeta .cuerpo-tarjeta > h4, p {
+    background:white;
+}
+.tarjeta .pie-pagina-tarjeta{
+    background: green;
+}
+.anuncio .textoAnuncio{
+    background: chocolate;
+    color: white;
+}
+
+

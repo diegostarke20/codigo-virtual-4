@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.formulario {
+    border: 2px solid rgb(75, 0, 146);
+    width: 500px;
+    height: 600px;
+    margin: 20px auto;
+
+    /* border curvo*/
+    border-radius: 20px;
+    padding: 20px;
+
+}
+/*button*/
+
+.formulario__submit{
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: #530780;
+    border-radius: 3px;
+    margin-top: 10px;
+    /* colocando border solo en botton(abajo)*/
+    border-bottom: 4px solid #25023a;
+
+}
+.formulario__input {
+    width: 100%;
+    padding: 5px 25px;
+    border: none;
+    /* outline es un segundo boroder exterior sin embargo, no es tomado en cuenta para calcular el ancho ni el alto de un elemento, siempre esta flotando */
+    outline: none;
+    border-bottom: 1px solid #25023a;
+    background-color: #fcf6ff;
+    background-image: url(data:image/png;base64,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);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: center left;
+}
+.formulario__mensaje{
+    width: 100%;
+    outline: none;
+    background-color: #fcf6ff;
+    border: 1px;
+    margin-top: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
